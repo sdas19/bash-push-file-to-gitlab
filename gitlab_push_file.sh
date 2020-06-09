@@ -59,7 +59,7 @@ if [ "$PRIVATE_TOKEN" == "" ]; then
   echo
   printf "\n Please set GITLAB_PRIVATE_TOKEN first...\n"
   printf "\n Get your token with scope api at.."
-  printf "\n https://source.golabs.io/profile/personal_access_tokens \n"
+  printf "\n gitlab/profile/personal_access_tokens \n"
   printf "\n And run below"
   printf "\n export GITLAB_PRIVATE_TOKEN=YOUR_PRIVATE_TOKEN_GOES_HERE\n\n"
   printf "\n add GITLAB_PRIVATE_TOKEN to your bash profile for further usage\n\n"
